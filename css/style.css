@@ -109,21 +109,25 @@ border-bottom: 1px solid #ECECEC
     font-size: 14px;
     line-height: 1.14;
     display: flex;
-    padding-top: 32px;
-    margin-left: 94px;
-    padding-bottom: 32px;}
+    margin-left: 93px;
+    }
 
 .head:not(:last-child) {
     margin-right: 50px;
-    padding: 0;
-    display: flex;}
+    display: flex;
+}
 
 .current {
     text-decoration: none;
-    color: var(--accent-color);}
+    color: var(--accent-color);
+    padding-top: 32px;
+}
 .link {
     text-decoration: none;
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
 
 .auht-nav {
     color: var(--primary-text-color);
@@ -151,6 +155,7 @@ border-bottom: 1px solid #ECECEC
     max-width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
+    letter-spacing: 0.06em;
 }
 .hero-button {
     font-family: 'Roboto';
@@ -171,6 +176,7 @@ border-bottom: 1px solid #ECECEC
     border: none;
     border-radius: 4px;
     padding: 10px 32px;
+    letter-spacing: 0.06em;
     }
 
 
@@ -295,7 +301,6 @@ border-bottom: 1px solid #ECECEC
     text-decoration: none; 
     margin-bottom: 50px;
     padding: 6px 22px;
-   
 }
 
 .button-success:hover,
@@ -361,7 +366,7 @@ border-bottom: 1px solid #ECECEC
     text-decoration: none;}
 
 .item {
-    margin: 9px;
+    margin-bottom: 9px;
     }
 
 .logo-footer {
