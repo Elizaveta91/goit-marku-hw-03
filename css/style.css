@@ -244,9 +244,9 @@ border-bottom: 1px solid #ECECEC
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
-    margin: 0;
+    margin-bottom: 50px;
     }
+    
 .list-work { 
     padding: 0;
     display: flex;
